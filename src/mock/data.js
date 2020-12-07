@@ -34,7 +34,7 @@ export const projectsData = [
     title: 'North Shore Commissary',
     info: 'Ryan approached me when he was in the process of opening his Commissary Kitchen in North Vancouver. He needed a website to showcase his space and inform potential customers. He needed something solid and reliable to make his startup a success.',
     info2: 'This project is ReactJS based and deployed to Netlify which makes for clean and reliable site.',
-    url: 'https://www.northshorecommisssary.com',
+    url: 'https://elegant-nobel-cb4a6d.netlify.app',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'AshleyMcCloud.com',
     info: "Ashley wasn't happy with the limitations of Squarespace so she approached me to design and deploy something that would feel clean and modern, but allow for more customizations.",
     info2: 'This site was built using Gatsby with Contentful CMS.',
-    url: 'https://www.ashleymccloud.com',
+    url: 'https://infallible-thompson-0a88ea.netlify.app',
     repo: '', // if no repo, the button will not show up
   },
   {
