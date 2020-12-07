@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'AshleyMcCloud.com',
     info: "Ashley wasn't happy with the limitations of Squarespace so she approached me to design and deploy something that would feel clean and modern, but allow for more customizations.",
     info2: 'This site was built using Gatsby with Contentful CMS.',
-    url: 'https://ashleymccloud.netlify.app',
+    url: 'https://ashley-mccloud.netlify.app',
     repo: '', // if no repo, the button will not show up
   },
   {
