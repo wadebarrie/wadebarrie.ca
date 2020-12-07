@@ -1,11 +1,7 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+# Wadebarrie.ca
 
-## A clean, beautiful and responsive portfolio template for Developers
+## Built on Gatsby Simple-folio starter, just needed to get something up quick. 
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
-  <br>
-</h2>
 
 ## Features
 
@@ -17,9 +13,6 @@
 ⚡️ Image optimization with Gatsby\
 ⚡️ Easy site customization\
 ⚡️ Well organized documentation
-
-To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
 
 ---
 
@@ -232,14 +225,7 @@ $secondary-color: #00cdac;
 
 ## Deployment 📦
 
-Once you have done with your setup. You need to put your website online!
-
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
-
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
+Deployed to Netlify
 
 ## Technologies used 🛠️
 
@@ -255,7 +241,7 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9518728f-0de0-41ef-b92c-ac764d5c5da7/deploy-status)](https://app.netlify.com/sites/wadebarrie/deploys)
 
 ## License 📄
 
