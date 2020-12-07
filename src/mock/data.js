@@ -2,64 +2,66 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Wade Barrie | Web Design, Development and Hosting', 
+  lang: 'en',
+  description: "I'm a Vancouver-based designer and developer with a focus on small business and e-commerce.",
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hi, I'm",
+  name: 'Wade.',
+  subtitle: "A Vancouver-based web designer and developer focusing on small business and e-commerce.",
+  cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'wade-01.jpg',
+  paragraphOne: "My name is Wade, a former long-haul trucker turned web developer and designer. I have a passion for solving problems and building websites, and I am always looking for new experiences and opportunities.",
+  paragraphTwo: 'I offer a full suite of services from web hosting, maintenance, web design, and development.',
+  paragraphThree: 'Feel free to contact me for a free quote or to discuss your project.',
+  btn: 'Email Me',
+  email: 'hello@wadebarrie.ca',
+  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'nsc-01.jpg',
+    title: 'North Shore Commissary',
+    info: 'Ryan approached me when he was in the process of opening his Commissary Kitchen in North Vancouver. He needed a website to showcase his space and inform potential customers. He needed something solid and reliable to make his startup a success.',
+    info2: 'This project is ReactJS based and deployed to Netlify which makes for clean and reliable site.',
+    url: 'https://www.northshorecommisssary.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'am-01.jpg',
+    title: 'AshleyMcCloud.com',
+    info: "Ashley wasn't happy with the limitations of Squarespace so she approached me to design and deploy something that would feel clean and modern, but allow for more customizations.",
+    info2: 'This site was built using Gatsby with Contentful CMS.',
+    url: 'https://www.ashleymccloud.com',
+    repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Pineapple Cat Studio',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Questions? Shoot me a message!',
+  btn: 'Email Me',
+  email: 'hello@wadebarrie.ca',
 };
 
 // FOOTER DATA
@@ -67,28 +69,17 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/wadebarrie/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/wadebarrie',
     },
   ],
 };
-
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

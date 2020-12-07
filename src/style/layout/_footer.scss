@@ -1,6 +1,6 @@
 .footer {
-  background-color: $dark-grey;
-  color: $white-color;
+  background-color: #ffffff;
+  color: $primary-color;
   padding: 4.8rem 0;
 
   @include respond(phone) {
@@ -8,11 +8,11 @@
   }
 
   &__text {
-    color: darken(white, 50%);
+    color: $primary-color;
     font-size: 1.3rem;
 
     a {
-      color: darken(white, 50%);
+      color: $primary-color;
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white-color;
+    color: $primary-color;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;

@@ -23,23 +23,25 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  color: $primary-color;
+  background-color: $primary-color;
+  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  // -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-image: $primary-color;
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    border: 2px solid $primary-color;
+    -webkit-text-fill-color: $primary-color
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    background-color: $primary-color;
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -48,10 +50,11 @@
 
   &:hover {
     -webkit-text-fill-color: $white-color;
+    color: $primary-color;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-color;
+      -webkit-text-fill-color: $primary-color;
     }
 
     &::after {
@@ -70,7 +73,7 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $primary-color;
     text-decoration: none;
 
     &::after {
@@ -81,5 +84,5 @@
 
 /* Arrow Button */
 .up i {
-  color: #272727;
+  color: $primary-color;
 }
