@@ -46,6 +46,15 @@ export const projectsData = [
     url: 'https://www.ashleymccloud.com',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'nsc-togo.jpg',
+    title: 'NSC Cafe',
+    info: 'Current work in progress. North Shore Commissary is opening a cafe!',
+    info2: 'Check back for updates, estimated launch is Jan 2021.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',
