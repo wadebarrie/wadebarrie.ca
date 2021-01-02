@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer navbar-static-bottom">
       <Container>
         <span className="back-to-top">
-          <Link to="hero" smooth duration={1000}>
+          <Link to="hero" smooth duration={500}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
@@ -37,9 +37,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">
-          © {new Date().getFullYear()} wadebarrie.ca
-        </p>
+        <p className="footer__text">© {new Date().getFullYear()} wadebarrie.ca</p>
 
         {isEnabled && <GithubButtons />}
       </Container>

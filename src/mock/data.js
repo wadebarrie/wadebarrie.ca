@@ -2,24 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Wade Barrie | Web Design, Development and Hosting', 
+  title: 'Wade Barrie | Web Design, Development and Hosting',
   lang: 'en',
-  description: "I'm a Vancouver-based designer and developer with a focus on small business and e-commerce.",
+  description:
+    "I'm a Vancouver-based designer and developer with a focus on small business and e-commerce.",
 };
 
 // HERO DATA
 export const heroData = {
   title: "Hi, I'm",
   name: 'Wade.',
-  subtitle: "A Vancouver-based web designer and developer focusing on small business and e-commerce.",
+  subtitle:
+    'A Vancouver-based web designer and developer focusing on small business and e-commerce.',
   cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'wade-01.jpg',
-  paragraphOne: "My name is Wade, a former long-haul trucker turned web developer and designer. I have a passion for solving problems and building websites, and I am always looking for new experiences and opportunities.",
-  paragraphTwo: 'I offer a full suite of services from web hosting, maintenance, web design, and development.',
+  paragraphOne:
+    'My name is Wade, a former long-haul trucker turned web developer and designer. I have a passion for solving problems and building websites, and I am always looking for new experiences and opportunities.',
+  paragraphTwo:
+    'I offer a full suite of services from web hosting, maintenance, web design, and development.',
   paragraphThree: 'Feel free to contact me for a free quote or to discuss your project.',
   btn: 'Email Me',
   email: 'hello@wadebarrie.ca',
@@ -32,8 +36,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'nsc-01.jpg',
     title: 'North Shore Commissary',
-    info: 'Ryan approached me when he was in the process of opening his Commissary Kitchen in North Vancouver. He needed a website to showcase his space and inform potential customers. He needed something solid and reliable to make his startup a success.',
-    info2: 'This project is ReactJS based and deployed to Netlify which makes for clean and reliable site.',
+    info:
+      'Ryan approached me when he was in the process of opening his Commissary Kitchen in North Vancouver. He needed a website to showcase his space and inform potential customers. He needed something solid and reliable to make his startup a success.',
+    info2:
+      'This project is ReactJS based and deployed to Netlify which makes for clean and reliable site.',
     url: 'https://north-shore-commissary.netlify.app',
     repo: '', // if no repo, the button will not show up
   },
@@ -41,7 +47,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'am-01.jpg',
     title: 'AshleyMcCloud.com',
-    info: "Ashley wasn't happy with the limitations of Squarespace so she approached me to design and deploy something that would feel clean and modern, but allow for more customizations.",
+    info:
+      "Ashley wasn't happy with the limitations of Squarespace so she approached me to design and deploy something that would feel clean and modern, but allow for more customizations.",
     info2: 'This site was built using Gatsby with Contentful CMS.',
     url: 'https://ashley-mccloud.netlify.app',
     repo: '', // if no repo, the button will not show up
