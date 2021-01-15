@@ -40,7 +40,7 @@ export const projectsData = [
       'Ryan approached me when he was in the process of opening his Commissary Kitchen in North Vancouver. He needed a website to showcase his space and inform potential customers. He needed something solid and reliable to make his startup a success.',
     info2:
       'This project is ReactJS based and deployed to Netlify which makes for clean and reliable site.',
-    url: 'https://north-shore-commissary.netlify.app',
+    url: 'https://northshorecommissary.com',
     repo: '', // if no repo, the button will not show up
   },
   {
