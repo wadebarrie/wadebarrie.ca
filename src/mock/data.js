@@ -26,7 +26,7 @@ export const aboutData = {
     'I offer a full suite of services from web hosting, maintenance, web design, and development.',
   paragraphThree: 'Feel free to contact me for a free quote or to discuss your project.',
   btn: 'Email Me',
-  email: 'hello@wadebarrie.ca',
+  email: 'wade@wbdesigns.ca',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -77,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Questions? Shoot me a message!',
   btn: 'Email Me',
-  email: 'hello@wadebarrie.ca',
+  email: 'wade@wbdesigns.ca',
 };
 
 // FOOTER DATA
