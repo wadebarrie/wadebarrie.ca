@@ -37,7 +37,9 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">© {new Date().getFullYear()} wbdesigns.ca</p>
+        <p className="footer__text">
+          © {new Date().getFullYear()}&nbsp;{window.location.hostname}
+        </p>
 
         {isEnabled && <GithubButtons />}
       </Container>
