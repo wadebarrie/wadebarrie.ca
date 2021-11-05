@@ -2,18 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Wade Barrie | Web Design, Development and Hosting',
+  title: 'Wade Barrie | Web Development, Design and Hosting',
   lang: 'en',
-  description:
-    "I'm a Vancouver-based designer and developer with a focus on small business and e-commerce.",
+  description: "I'm a Vancouver-based Web Developer with a focus on small business and e-commerce.",
 };
 
 // HERO DATA
 export const heroData = {
   title: "Hi, I'm",
   name: 'Wade.',
-  subtitle:
-    'A Vancouver-based web designer and developer focusing on small business and e-commerce.',
+  subtitle: 'A Vancouver-based web developer focusing on small business and e-commerce.',
   cta: 'About Me',
 };
 
@@ -21,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'wade-01.jpg',
   paragraphOne:
-    'My name is Wade, a former long-haul trucker turned web developer and designer. I have a passion for solving problems and building websites, and I am always looking for new experiences and opportunities.',
+    'My name is Wade, a former long-haul trucker turned web developer. I have a passion for solving problems and building websites, and I am always looking for new experiences and opportunities.',
   paragraphTwo:
     'I offer a full suite of services from web hosting, maintenance, web design, and development.',
   paragraphThree: 'Feel free to contact me for a free quote or to discuss your project.',
@@ -58,19 +56,20 @@ export const projectsData = [
     img: 'nsc-togo.jpg',
     title: 'NSC Cafe',
     info: 'Current work in progress. North Shore Commissary is opening a cafe!',
-    info2: 'Check back for updates, estimated launch is Jan 2021.',
+    info2: 'Check back for updates, estimated launch is Jan 2022.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: 'Pineapple Cat Studio',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'westbound.jpg',
+    title: 'Westbound and Down Property Services',
+    info:
+      'A local startup needed a website that would showcase their services and completed projects.',
+    info2: 'This is a Wordpress site deployed to the clients hosting server.',
+    url: 'https://www.westboundanddown.ca',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
